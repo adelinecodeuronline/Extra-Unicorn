@@ -156,6 +156,7 @@ text-align: left;
     margin-top: 80px; 
     background-color: var(--gray);
     padding-bottom: 60px;
+    margin-bottom: 80px;
    }
 
 
@@ -193,5 +194,48 @@ font-size: 18px;
     font-family: var(--font-title);
     white-space: pre-line;
 }
+
+/*footer*/
+
+footer {
+
+    display: flex;
+    flex-flow: wrap;
+}
+
+
+footer svg {
+    width: 6vw;
+    height: auto;
+    
+    
+    
+}
+
+
+footer a {
+    
+    display: inline-block;
+    text-decoration: none;
+    color: var(--black);
+    border: var(--gray) solid 1px;
+    padding: 20px 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+       
+    
+}
+
+footer div {
+
+    padding-bottom: 50px;
+    margin-left: 10px;
+}
+
+
+
+
+
 
 

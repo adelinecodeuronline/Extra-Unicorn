@@ -52,7 +52,47 @@ h1 {
 }
 
 
+header img {
 
+    padding-top: 250px;
+    width: 400px;
+    height: auto;
+}
+
+
+/*sections*/
+
+
+section img {
+
+    border-radius: 8px;
+}
+
+#project1_desktop {
+
+    display : block;
+    width: 100%;
+    height: auto;
+    
+    }
+
+
+#project1_mobile {
+
+    display: none;
+}
+    
+section p {
+
+    display: block;
+    z-index: 100;
+    width: 230px;
+    margin-top: -90px;
+    margin-left: 20px;
+    font-size: 14px;
+
+    }
+    
 
 
 

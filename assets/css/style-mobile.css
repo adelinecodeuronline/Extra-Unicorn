@@ -80,4 +80,46 @@ header p {
 }
 
 
+header img {
+
+    margin: auto;
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    width: 300px;
+    height: auto;
+}
+
+
+
+
+/*sections*/
+
+section {
+
+    height: 500px;
+}
+
+#project1_desktop {
+
+    display : none;
+}
+
+#project1_mobile {
+
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+section p {
+
+text-align: left;
+}
+
+
+
+
+
 

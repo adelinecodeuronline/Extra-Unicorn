@@ -1,0 +1,67 @@
+@media (min-width: 800px) { 
+
+
+.container {
+    width: 60%;
+}
+
+
+/*nav*/
+
+
+#burger {
+    display: none;
+}
+
+
+nav div {
+    display: flex;
+    gap: 260px;
+
+}
+
+
+nav li {
+
+    list-style: none;
+    display: inline-block;
+}
+
+
+nav a {
+
+    
+    color: var(--black);
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+
+/*header*/
+
+header {
+
+    height: 30%;
+}
+
+h1 {
+
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

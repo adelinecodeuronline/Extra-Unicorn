@@ -1,0 +1,83 @@
+:root {
+    --black: #181818;
+    --white: #ffffff;
+    --gray: #eeeeee;
+    --gray-light: #fbfbfb;
+    --font-body: 'PT Sans', sans-serif;
+    --font-title: 'Libre Baskerville', serif;
+}
+
+
+
+body {
+
+    font-family: var(--font-body);
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+
+    width: 90%;
+    margin: auto;
+}
+
+
+/*nav*/
+
+nav {
+
+    display: flex;
+}
+
+
+nav div {
+    display: flex;
+    margin-top: 30px;
+    gap: 140px;
+
+}
+
+
+#logo {
+
+    width: 25px;
+    height: auto;
+}
+
+
+#burger {
+    display: block;
+}
+
+
+nav li {
+
+    display: none;
+}
+
+
+/*header*/
+
+
+header {
+
+    height: 20%;
+}
+
+
+h1 {
+    padding-top: 120px;
+    text-align : center;
+    margin: auto;
+    font-family: var(--font-title);
+}
+
+header p {
+    text-align: center;
+}
+
+
+

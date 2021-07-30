@@ -207,7 +207,7 @@ footer {
 footer svg {
     width: 6vw;
     height: auto;
-    
+   
     
     
 }
@@ -229,8 +229,9 @@ footer a {
 
 footer div {
 
-    padding-bottom: 50px;
-    margin-left: 10px;
+   
+    margin: auto;
+  
 }
 
 

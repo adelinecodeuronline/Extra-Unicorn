@@ -95,9 +95,11 @@ header img {
 
 /*sections*/
 
-section {
 
-    height: 500px;
+section img {
+
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 #project1_desktop {
@@ -106,7 +108,7 @@ section {
 }
 
 #project1_mobile {
-
+    
     display: block;
     width: 100%;
     height: auto;
@@ -115,11 +117,81 @@ section {
 
 section p {
 
+margin-top: 15px;  
+margin-bottom: 50px;  
+display: block;
 text-align: left;
 }
 
 
 
+#project2_desktop {
 
+    display: none;
+}
+
+
+#project2_mobile {
+
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+#btn1 {
+
+    display: block;
+    padding: 15px 80px;
+    border: 1px solid var(--black);
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    color: var(--black);
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+#section3 {
+    margin-top: 80px; 
+    background-color: var(--gray);
+    padding-bottom: 60px;
+   }
+
+
+#section3 img {
+    width: 80vw;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+
+#btn2 {
+
+display: block;
+background-color: var(--black);
+padding: 15px 80px;
+border: none;
+margin: auto;
+text-decoration: none;
+text-align: center;
+color: var(--white);
+border-radius: 4px;
+font-size: 18px;   
+}
+
+#section3 div {
+
+    padding: 0 20px;
+}
+
+
+#section3 h2 {
+
+    font-family: var(--font-title);
+    white-space: pre-line;
+}
 
 
